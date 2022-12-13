@@ -9,7 +9,7 @@ RootElement.createRootElement(
 
 new Router([
     {
-      component: ConfigureGamePage, //import('./pages/ConfigureGamePage.js'),
+      component: ConfigureGamePage,
       path: '/',
     },
     {
@@ -19,15 +19,3 @@ new Router([
   ],
   '/game',
 );
-
-// test navigation:
-// const iR = Router.getInstance();
-//
-// setTimeout(() => {
-//   console.log('NAV???');
-//   iR.navigate('/')
-//   setTimeout(() => {
-//     console.log('NAV back???');
-//     iR.navigateBack()
-//   }, 3000)
-// }, 3000)
