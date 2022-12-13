@@ -4,7 +4,7 @@ import {
   FlipCard,
   FlipCardInner,
   FlipCardPosition
-} from './flip-card';
+} from './flip-card/index.js';
 import {Image} from '../image/Image.js';
 
 export class Card {
