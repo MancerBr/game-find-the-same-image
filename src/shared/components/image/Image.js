@@ -10,9 +10,13 @@ export class Image extends ClassComponent {
 
   #create(src) {
     this.nativeElement = createElement(
-      TAG.IMG,
+      TAG.DIV,
       {
-        src,
+        class: ['image'],
+        attributes: [{
+          name: 'style',
+          value: `background-image: url(${src})`,
+        }],
       },
     );
   }

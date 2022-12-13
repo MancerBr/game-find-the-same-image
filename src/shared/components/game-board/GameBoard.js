@@ -76,17 +76,17 @@ export class GameBoard extends ClassComponent {
       TAG.DIV,
       {
         class: ['game-board'],
-        setProperties: [
+        properties: [
           {
-            property: CSS_VAR_GRID_SIZE,
+            name: CSS_VAR_GRID_SIZE,
             value: gridSize,
           },
           {
-            property: CSS_VAR_CELL_SIZE,
+            name: CSS_VAR_CELL_SIZE,
             value: `${this.#cellSize}vmin`,
           },
           {
-            property: CSS_VAR_CELL_GAP,
+            name: CSS_VAR_CELL_GAP,
             value: `${this.#cellGap}vmin`,
           },
         ],

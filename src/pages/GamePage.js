@@ -11,7 +11,6 @@ import {GameBoard as GameBoardModel} from '../shared/models/GameBoard.js';
 export class GamePage extends PageComponent {
   #gameBoardView;
   #gameModel;
-  #gameBoardElements = [];
   #gameBoardModel;
 
   constructor() {
